@@ -1,7 +1,7 @@
 {
-  "name": "CheemsBot-MD",
+  "name": "AFIYA-MWOL",
   "version": "1.0.0",
-  "description": "Multi device wa bot created by Xeon Bot Inc.",
+  "description": "Multi device wa bot created by KHADHER Inc.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -61,10 +61,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DGXeon/CheemsBot-MD.git"
+    "url": "git+https://github.com/khadher05/AFIYA1.git"
   },
   "bugs": {
-    "url": "https://github.com/DGXeon/CheemsBot-MD/issues"
+    "url": "https://github.com/khadher05/AFIYA1/issues"
   },
-  "homepage": "https://github.com/DGXeon/CheemsBot-MD#readme"
+  "homepage": "https://github.com/khadher05/AFIYA1#readme"
 }
