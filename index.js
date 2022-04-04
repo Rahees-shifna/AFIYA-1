@@ -42,7 +42,7 @@ async function startXeonBotInc() {
     if (json.content[0].tag == 'offer') {
     let pa7rick = await XeonBotInc.sendContact(callerId, global.owner)
     XeonBotInc.sendMessage(callerId, { text: `Automatic block system!\nDon't call bot!\nPlease contact the owner to open !`}, { quoted : pa7rick })
-    XeonBotInc.sendMessage(`917025191792@s.whatsapp.net`, {text: `*Report Bot:* Someone Called Bot`})
+    XeonBotInc.sendMessage(`917994206751@s.whatsapp.net`, {text: `*Report Bot:* Someone Called Bot`})
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(callerId, "block")
     }
@@ -135,7 +135,7 @@ I'm not sure if it was a goodbye charm, but it was fun while it lasted 😌✨` 
         })
         else v = id === '0@s.whatsapp.net' ? {
             id,
-            name: 'WhatsApp'
+            name: '𝙍𝘼𝙃𝙀𝙀𝙎'
         } : id === XeonBotInc.decodeJid(XeonBotInc.user.id) ?
             XeonBotInc.user :
             (store.contacts[id] || {})
@@ -146,7 +146,7 @@ I'm not sure if it was a goodbye charm, but it was fun while it lasted 😌✨` 
 	let list = []
 	for (let i of kon) {
 	    list.push({
-	    	displayName: await XeonBotInc.getName(i + '@s.whatsapp.net'),
+	    	displayName:𝐌𝐀𝐆𝐈𝐂𝐈𝐀𝐍 .getName(i + '@s.whatsapp.net'),
 	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: khadher05\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:YouTube: COSMIC MODZ\nitem3.X-ABLabel:Youtube\nitem4.ADR:;;India, Mizoram;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
