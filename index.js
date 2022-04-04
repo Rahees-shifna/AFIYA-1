@@ -30,7 +30,7 @@ async function startXeonBotInc() {
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['follow khadher on insta',insta','1.0.0'],
+        browser: ['KHADHER',__khadher__','1.0.0'],
         auth: state,
         version
     })
