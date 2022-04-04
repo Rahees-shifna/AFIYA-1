@@ -38,3 +38,27 @@ SCAN QR AND ENJOYY AFIYA V1
 
 ### ANY DOUBT DM ME 
 [KHADHER]()
+
+### ⚠️ Warning! 
+```
+Due to Whatsapp bot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, Pikachu executives do not accept responsibility.
+By establishing the *AFIYA*, you are deemed to have accepted these responsibilities.
+```
+
+## Developers
+  <div align="center">
+    
+  [![KHADHER](https://github.com/khadher05.png?size=100)](https://github.com/khadher05) | 
+----|
+[KHADHER05](https://github.com/khadher05)
+Base, Bug Fixes, Modules | Modifiying as public | Bug Fixes, Modules | Bug fixes, ideas
+  </div>
+
+
+## License
+This project is protected by `GNU General Public Licence v3.0` license.
+
+### Disclaimer
+`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
