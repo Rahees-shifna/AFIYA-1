@@ -37,7 +37,7 @@ SCAN QR AND ENJOYY AFIYA V1
 [CLICK HERE](https://chat.whatsapp.com/FhPPp43dYlNLi499ZJuq5X)
 
 ### ANY DOUBT DM ME 
-[KHADHER]()
+[KHADHER](https://api.whatsapp.com/send/?phone=917025191792&text&app_absent=0)
 
 ### ⚠️ Warning! 
 ```
