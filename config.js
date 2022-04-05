@@ -1,4 +1,4 @@
-//═══════[© 2022 AFIYA Inc.]════════\\
+//═══════[© 2022 𝙍𝘼𝙃𝙀𝙀𝙎 Inc.]════════\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
@@ -22,12 +22,12 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['917025191792','917025191792'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
-global.pemilik = ['917025191792'] //another owner number
-global.premium = ['917025191792'] //premium number
-global.pengguna = 'KHADHER' //username
-global.botnma = 'AFIYA MWOL V1' //bot name
-global.ownernma = 'KHADHER' //owner name
+global.owner = ['917994206751','917994206751'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.pemilik = ['917994206751'] //another owner number
+global.premium = ['917994206751'] //premium number
+global.pengguna = '𝙍𝘼𝙃𝙀𝙀𝙎' //username
+global.botnma = '𝐌𝐀𝐆𝐈𝐂𝐈𝐀𝐍' //bot name
+global.ownernma = '𝙍𝘼𝙃𝙀𝙀𝙎' //owner name
 global.packname = 'AFIYA' //sticker package name
 global.author = 'By KHADHER' //sticker author name
 global.sessionName = 'session' //session name
@@ -48,7 +48,7 @@ global.limitawal = {
     premium: "Infinity", //premium user limit
     free: 100 //free user limit
 }
-global.thumb = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+global.thumb = fs.readFileSync('./Rahees.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
