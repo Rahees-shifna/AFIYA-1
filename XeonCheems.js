@@ -103,7 +103,7 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe Bot's Official YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://instagram.com/__khadher__?utm_medium=copy_link"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe Bot's Official YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://instagram.com/_rahees._.4?utm_medium=copy_link"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -589,11 +589,11 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/916909137213 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/917994206751 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/khadher05/AFIYA-1\n Dont Forget To Give Star\n\nYoutube : https://instagram.com/__khadher__?utm_medium=copy_link\n Dont Forget To Subscribe')
+                reply('Script : https://github.com/Rahees-shifna/AFIYA-1\n Dont Forget To Give Star\n\nYoutube : https://instagram.com/_rahees._.4?utm_medium=copy_link\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -1209,12 +1209,12 @@ case 'antilink':
                     let btn = [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://github.com/khadher05/AFIYA-1'
+                                    url: 'https://github.com/Rahees-shifna/AFIYA-1'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+917025191792'
+                                    phoneNumber: '+917994206751'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1233,7 +1233,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 AFIYA-MWOL Broadcast 」\n\n${text}`
+                      let txt = `「 𝐌𝐀𝐆𝐈𝐂𝐈𝐀𝐍-ᗷOTBroadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1249,7 +1249,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/khadher05/AFIYA-1'
+                                    url: 'https://github.com/Rahees-shifna/AFIYA-1'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1258,7 +1258,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 AFIYA-MWOL Broadcast 」\n\n${text}`
+                      let txt = `「 𝐌𝐀𝐆𝐈𝐂𝐈𝐀𝐍-ᗷOTBroadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -2170,7 +2170,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/917994206751?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2368,30 +2368,30 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	XeonBotInc.sendMessage(`916909137213@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	XeonBotInc.sendMessage(`917994206751@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-AFIYA-MWOL  With You Forever!! 👻🤚`
+𝐌𝐀𝐆𝐈𝐂𝐈𝐀𝐍-ᗷOT With You Forever!! 👻🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/khadher05/AFIYA-1'
+                                    url: 'https://github.com/Rahees-shifna/AFIYA-1'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2446,12 +2446,12 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/khadher05/AFIYA-1'
+                                    url: 'https://github.com/Rahees-shifna/AFIYA-1'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2481,7 +2481,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_ᴀꜰɪyᴀ ᴠ1 _",
+                    footerText: "_💖ﷺ✨️ _",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2612,11 +2612,11 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2654,11 +2654,11 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2691,11 +2691,11 @@ case 'downloadmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2722,11 +2722,11 @@ case 'randommenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2754,11 +2754,11 @@ case 'funmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2794,11 +2794,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2828,11 +2828,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2886,11 +2886,11 @@ case 'horoscopemenukcodk': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2924,11 +2924,11 @@ case 'convertmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2964,11 +2964,11 @@ case 'nocategorymenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3001,11 +3001,11 @@ case 'databasemenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3033,11 +3033,11 @@ case 'anonymouschatmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3065,11 +3065,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: ` 💖ﷺ✨️`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3102,11 +3102,11 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3243,11 +3243,11 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `ᴀꜰɪyᴀ ᴠ1 `,
+                            hydratedFooterText: `💖ﷺ✨️ `,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
-                                    url: 'https://instagram.com/__khadher__?utm_medium=copy_link'
+                                    url: 'https://instagram.com/_rahees._.4?utm_medium=copy_link'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3263,8 +3263,8 @@ break
 break
 case 'tqtt': 
 reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
+𝙍𝘼𝙃𝙀𝙀𝙎
+𝐌𝐀𝐆𝐈𝐂𝐈𝐀𝐍 (Me)
 My family
 And all friends who helped assemble this sexy script !!!`)
 break
