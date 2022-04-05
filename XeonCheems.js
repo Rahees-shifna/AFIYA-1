@@ -2382,7 +2382,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2481,7 +2481,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_💖ﷺ✨️ _",
+                    footerText: "_𝙍𝘼𝙃𝙀𝙀𝙎_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2612,7 +2612,7 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2654,7 +2654,7 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2691,7 +2691,7 @@ case 'downloadmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2722,7 +2722,7 @@ case 'randommenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2754,7 +2754,7 @@ case 'funmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2794,7 +2794,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2828,7 +2828,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2886,7 +2886,7 @@ case 'horoscopemenukcodk': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2924,7 +2924,7 @@ case 'convertmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -2964,7 +2964,7 @@ case 'nocategorymenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -3001,7 +3001,7 @@ case 'databasemenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -3033,7 +3033,7 @@ case 'anonymouschatmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
@@ -3243,7 +3243,7 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `💖ﷺ✨️ `,
+                            hydratedFooterText: `𝙍𝘼𝙃𝙀𝙀𝙎`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM📍',
